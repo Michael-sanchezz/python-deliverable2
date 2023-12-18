@@ -37,10 +37,9 @@ while choice == True:
                 choice = True
                 print(f'choice: {choice}')
 fruit_cost = (apple_counter * 2) + (grape_counter * 1) + (orange_counter * 3)
-print(f"fruit cost {fruit_cost}")
 tax = (fruit_cost * .05)
-print(tax)
 total = tax + fruit_cost
+print(f"Order for {name}")
 print(f"You bought {apple_counter} {fruits[0]} at $2 apiece")
 print(f"You bought {grape_counter} {fruits[1]} at $1 apiece")
 print(f"You bought {orange_counter} {fruits[2]} at $3 apiece")
