@@ -7,10 +7,10 @@ apple_counter = 0
 grape_counter= 0
 orange_counter = 0
 while choice == True:
-    fruit_choice = input(f"\nhello {name}. Which fruit would you like to buy ")
     print(f"1) {fruits[0]} $2")
     print(f"2) {fruits[1]} $1")
     print(f"3) {fruits[2]} $3")
+    fruit_choice = input(f"\nhello {name}. Which fruit would you like to buy ")
     if fruit_choice == "1":
         print(f"you bought 1 {fruits[0]}")
         apple_counter = apple_counter + 1
